@@ -7,14 +7,10 @@
                 <div class="box-header with-border">
                     <h3 class="box-title">Tambah Penginapan</h3>
                 </div>
-                
-                
                 <!-- /.box-header -->
                 <!-- form start -->
                 <form action="<?php echo base_url(). 'Admin/penginapanAdd'; ?>" name="form"  onsubmit="return validateForm()" method="post" enctype="multipart/form-data">
                     <div class="box-body">
-
-
                             <div class="form-group">
                                 <label for="id_kota">Pilih Kota</label>
                                     <select class="form-control" name="id_kota">
@@ -167,7 +163,6 @@
         </div>
     </div>
 </section>
-
 </div>
 
 

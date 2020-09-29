@@ -10,7 +10,7 @@
             <?php foreach($admin as $list) : ?>
               <img class="profile-user-img img-responsive img-circle" style="width:100px;height:100px;" src="<?php echo base_url('foto/adminFoto/' . $list->foto) ?>" alt="User profile picture">
               <h3 class="profile-username text-center"><?= $list->nama_lengkap ?></h3>
-              <p class="text-muted text-center">Created on : <?php echo  date_format(date_create($list->post_date),"d-m-Y") ?></p>
+              <p class="text-muted text-center">Created on : <?php echo date_format(date_create($list->post_date),"d-m-Y") ?></p>
 
               
             </div>

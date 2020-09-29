@@ -78,7 +78,7 @@
                 <?php endforeach;?>
                   <p>
                     <?= $this->session->userdata("nama_lengkap"); ?>
-                    <small>Member since <?= date_format(($this->session->userdata('post_date')),"d - m - Y"); ?></small>
+                    <small>Member since <?= date_format(date_create($this->session->userdata('post_date')),"d - m - Y"); ?></small>
                   </p>
                 </li>
                 
